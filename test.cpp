@@ -1,7 +1,11 @@
 #include <iostream>
 
-int main(){
-	std::cout << "Hello, World" << std::endl;
+int main()
+{
+	int a;
+
+	std::cin >> a;
+	std::cout << "Hello, World " << a << std::endl;
 	return 0;
 }
 
