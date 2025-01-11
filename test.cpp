@@ -8,6 +8,8 @@ int main()
 	{
 		std::cin >> a;
 		std::cout << "Hello, World " << a << std::endl;
+		if (i == 5)
+			std::cout << "5th" << std::endl;
 	}	
 	return 0;
 }
