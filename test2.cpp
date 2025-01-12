@@ -3,9 +3,11 @@ using namespace std;
 
 int main(){
 	int a;
+	char b;
 
 	cin >> a;
-	cout << "Hello, World" << a << endl;
+	cin >> b;
+	cout << "Hello, World" << a << b << endl;
 	return 0;
 }
 
